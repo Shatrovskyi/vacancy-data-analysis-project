@@ -2,18 +2,10 @@ from dataclasses import dataclass
 
 
 @dataclass
-class DirtyVacancy:
+class Vacancy:
     title: str
     company_name: str
-    job_description: list | None
-    additional_info: list | None
+    job_description: str
+    location: str
     salary: str
-
-
-@dataclass
-class CleanVacancy:
-    title: str
-    company_name: str
-    job_description: str | None
-    english_level: str
-    salary: str
+    published: str
