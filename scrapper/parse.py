@@ -17,7 +17,7 @@ from dataclasses import astuple, fields
 
 BASE_URL = "https://djinni.co/"
 
-PYTHON_VACANCY_URL = urljoin(BASE_URL, "jobs/?primary_keyword=Ruby")
+PYTHON_VACANCY_URL = urljoin(BASE_URL, "jobs/?primary_keyword=Python")
 
 options = Options()
 # options.add_argument("--headless")
